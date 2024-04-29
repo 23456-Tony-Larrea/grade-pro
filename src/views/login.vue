@@ -2,7 +2,7 @@
     <div id="app">
       <InputText v-model="login.email" placeholder="Email" />
       <InputText v-model="login.password" type="password" placeholder="Password" />
-      <Button label="Login" @click="submitForm" /> <!-- Add click event handler here -->
+      <Button label="Login" @click="submitForm" /> 
     </div>
   </template>
   
